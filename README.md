@@ -80,8 +80,69 @@ The entire ETL process is automated:
 
 ## 📊 Dashboard Preview
 
-### System Log Performance Dashboard
-![Log Dashboard](dashboards/logs_insights.png)
+### System Logs Performance Dashboard
+![Logs Dashboard](logs_ss.png)
 
-### Ticket Insights Dashboard
-![Ticket Dashboard](dashboards/ticket_insights.png)
+### Tickets Insights Dashboard
+![Tickets Dashboard](tickets_ss.png)
+
+🔗 [**Interactive Dashboard Web View**](https://app.powerbi.com/view?r=eyJrIjoiMTc0MjlkMjEtMWU5My00ZWY0LWJmMzAtZjc5NTVhYzVmZGVhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
+---
+
+## 🚀 Project Outcomes
+This project successfully delivered:
+
+**✔ A unified data ecosystem:** All structured and unstructured data is centralized into one data warehouse **(Redshift)**.
+
+**✔ Single Source of Truth:** Redshift now holds clean, transformed, analytics-ready datasets.
+
+**✔ Automated ETL Pipeline:** Reduced manual handling by 100% through Lambda, Glue, and S3 event triggers.
+
+**✔ Consistent KPIs Across the Organization:** Power BI dashboards provide unified metrics shared across teams.
+
+**✔ Improved Operational Efficiency:**
+  - Faster report generation
+  - Reduced data duplication
+  - Enhanced visibility into ticket handling & system performance
+
+**✔ Scalability:** Serverless AWS components automatically scale with business needs.
+
+---
+
+## 🧠 Skills Learned
+Through this project, I strengthened my expertise in:
+
+### AWS Cloud Services
+- Amazon S3 (Data Lake)
+- AWS Lambda (Serverless ETL)
+- AWS Glue (Data Transformation Jobs)
+- Amazon Athena (SQL on Data Lake)
+- Amazon Redshift Serverless (Data Warehousing)
+- IAM Role-based access policies (Permissions & Security)
+
+### Data Engineering Concepts
+- ETL/ELT workflows
+- OLTP → OLAP processing
+- Data pipeline orchestration
+- Schema design & data modeling
+- Parquet optimization
+- Handling unstructured logs data
+- Building fully automated pipelines
+
+### Analytics & Visualization
+- Power BI data modeling
+- Creating enterprise-grade dashboards
+
+---
+
+## 🙏 Acknowledgements
+A special thank you to **Codebasics**.
+
+This project was built as part of their Data Engineering course, and their guidance was instrumental in helping me design and implement this end-to-end AWS pipeline.
+
+---
+
+## ⭐ If you like this project
+
+Consider giving the repository a star 🌟 to support its visibility!
