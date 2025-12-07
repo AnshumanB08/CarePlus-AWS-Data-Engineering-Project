@@ -32,6 +32,7 @@ Raw data from both sources is ingested in the S3 Data Lake:
 - ***s3://careplus-stored-data/support-tickets/raw/***
 
 ### **3. Data Processing & Transformation**
+
 #### **a) Log Files Pipeline**
 - Raw log files ingested into S3.  
 - **AWS Lambda (serverless)** performs:
@@ -39,6 +40,7 @@ Raw data from both sources is ingested in the S3 Data Lake:
   - Parsing JSON/text logs  
   - Data transformation  
 - Output stored as Parquet in: ***s3://careplus-stored-data/support-logs/processed/***
+
 #### **b) Tickets Pipeline**
 - Tickets data in MySQL database exported as CSV files and ingested into S3. 
 - **AWS Glue** transforms the data:
@@ -72,6 +74,14 @@ The entire ETL process is automated:
 ---
 
 ## 🖼️ Pipeline Architecture Diagram
-(Add your architecture diagram in the repo under the /architecture folder.)
+![Pipeline Architecture](aws_project_pipeline.svg)
 
-Example placeholder:
+---
+
+## 📊 Dashboard Preview
+
+### System Log Performance Dashboard
+![Log Dashboard](dashboards/logs_insights.png)
+
+### Ticket Insights Dashboard
+![Ticket Dashboard](dashboards/ticket_insights.png)
