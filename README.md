@@ -1,4 +1,4 @@
-# CarePlus – AWS End-to-End Data Engineering Project
+# CarePlus – AWS End-to-End Data Engineering
 
 ## 📌 Project Overview
 CarePlus is an imaginary BPO company that handles customer care operations for multiple clients. The company previously relied on multiple databases and separate dashboards, resulting in fragmented insights and operational inefficiencies.
