@@ -54,16 +54,6 @@ The solution is built using a modern AWS serverless architecture:
 
 ## 📊 Dashboard Preview
 
-### Support Logs Insights
-
-![Logs Dashboard](logs_ss.png)
-
-Key insights include:
-- System CPU usage trends
-- Average response times
-- Log distribution by severity and user agent
-- Correlation between response time ranges and logged tickets
-
 ### Support Tickets Insights
 
 ![Tickets Dashboard](tickets_ss.png)
@@ -73,6 +63,16 @@ Key insights include:
 - Agent-wise ticket distribution
 - Resolution time analysis by issue category and priority
 - Channel-wise ticket status breakdown
+
+### Support Logs Insights
+
+![Logs Dashboard](logs_ss.png)
+
+Key insights include:
+- System CPU usage trends
+- Average response times
+- Log distribution by severity and user agent
+- Correlation between response time ranges and logged tickets
 
 🔗 [**Interactive Dashboard Web View**](https://app.powerbi.com/view?r=eyJrIjoiMTc0MjlkMjEtMWU5My00ZWY0LWJmMzAtZjc5NTVhYzVmZGVhIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
