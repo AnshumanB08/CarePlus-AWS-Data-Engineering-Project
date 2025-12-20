@@ -126,3 +126,5 @@ This project was built as part of their [**Data Engineering Basics Course**](htt
 - Amazon Redshift Serverless
 - Power BI
 - MySQL
+
+---
